@@ -1,0 +1,9 @@
+{
+  "python": "3.13.15",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "seconds": 13.888180949000116,
+  "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+  "seed_protocol": "fixed named streams; see run_all.py (calibration streams depend on n)",
+  "limitations": "finite known policy class; no LLM, human, real-robot, or deep-MARL evidence"
+}

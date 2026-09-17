@@ -1,0 +1,91 @@
+{
+  "finite_geometries": 120,
+  "mean_lp_to_optimal_margin": 0.9670847995271833,
+  "minimum_random_lp_ratio": 0.598920231736,
+  "lp_exact_ties": 96,
+  "mean_margins": {
+    "uniform": 0.12563191917396485,
+    "lp": 0.46706762494330417,
+    "exact": 0.48149571796643337
+  },
+  "structured_instances": 300,
+  "interval_witnesses": 400,
+  "calibration_decisions": 1200,
+  "calibration_totals": {
+    "plugin_accept": 952,
+    "plugin_false": 211,
+    "robust_accept": 167,
+    "robust_false": 0
+  },
+  "learner_runs": 2016,
+  "sampled_training_episodes": 3612672,
+  "class_expansions": 100,
+  "learned_search_at_4096": {
+    "uniform": {
+      "margin": 0.004,
+      "mean_crossplay": 0.834963768116,
+      "jackknife_se": 0.0281513029501,
+      "worst_crossplay": 0.5,
+      "certified_count": 10.0
+    },
+    "diagnostic_uniform": {
+      "margin": 0.02,
+      "mean_crossplay": 0.995833333333,
+      "jackknife_se": 0.00416666666667,
+      "worst_crossplay": 0.95,
+      "certified_count": 24.0
+    },
+    "inverse_gap": {
+      "margin": 0.0283719882909,
+      "mean_crossplay": 1.0,
+      "jackknife_se": 0.0,
+      "worst_crossplay": 1.0,
+      "certified_count": 24.0
+    },
+    "inverse_gap_squared": {
+      "margin": 0.00702439801382,
+      "mean_crossplay": 1.0,
+      "jackknife_se": 0.0,
+      "worst_crossplay": 1.0,
+      "certified_count": 24.0
+    },
+    "difficulty_only": {
+      "margin": 0.0,
+      "mean_crossplay": 0.667862318841,
+      "jackknife_se": 0.00992665591347,
+      "worst_crossplay": 0.35,
+      "certified_count": 0.0
+    },
+    "coverage_lp": {
+      "margin": 0.0439637124913,
+      "mean_crossplay": 0.975543478261,
+      "jackknife_se": 0.00275308927189,
+      "worst_crossplay": 0.95,
+      "certified_count": 24.0
+    },
+    "feature_diversity": {
+      "margin": 0.0,
+      "mean_crossplay": 0.593224637681,
+      "jackknife_se": 0.017557966269,
+      "worst_crossplay": 0.15,
+      "certified_count": 0.0
+    }
+  },
+  "reinforce_coverage_at_4096": {
+    "neutral": 24.0,
+    "method": "coverage_lp",
+    "learner": "reinforce",
+    "budget": 4096.0,
+    "margin": 0.0439637124913,
+    "mean_gap": 0.0751046755059,
+    "max_gap": 0.175854849965,
+    "mean_crossplay": 0.57652173913,
+    "jackknife_se": 0.0400381600226,
+    "worst_crossplay": 0.0,
+    "bad_pair_rate": 0.93115942029,
+    "qualified": 2.0,
+    "certified_count": 2.0,
+    "conditional_worst": 0.95,
+    "distinct": 18.0
+  }
+}

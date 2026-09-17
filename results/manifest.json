@@ -1,0 +1,13 @@
+{
+  "approximation_sharpness.csv": "5dea1ad932c2ba4dd9b1546668e86c5cbdca43f0b70139ddb5c97d5a62ffc7d6",
+  "calibration.csv": "ee930b1446563ff08e843c43cec2280674299bfa7133240b7964ee4fa03b81ce",
+  "class_expansion.csv": "32eded76598d17535dc122458353db10ef1a9d68df26a9c18619e5aaee533998",
+  "compatible_ambiguity.csv": "e942f3e9b54268daac7e7bf14650c6e659ba7326f518f359c8fe6cc996862d56",
+  "curricula.csv": "f48ab1ccacb45b2663ca4923fe0d33a73b88c909a1f0d8be3640002926a425e0",
+  "dilution.csv": "8980edfbc586ed0a5ce601df86819152c93967e08e556c5c87319e9143a5b56f",
+  "finite_geometries.csv": "3a9c98bbddb5a0d3a985ebec7d019eed14f0e112a89359a5e974309eca477709",
+  "interval_checks.csv": "aa5caa57e12d7147df159439ddbb0a865ec8836142468c888252c8a6871f903c",
+  "learned_seeds.csv": "ea8385ea21a7ff1d691df7ffe3c9ab17fccc99c5cc811feba0bfecdbf9a056fb",
+  "learning.csv": "9c265d7e1c5a75986940482914eb1669ab0867059da879362282a84ea613c934",
+  "structured_checks.csv": "e7daceb988b71143ff1dbf4a727790f71d9d3a39c9bf99eef15c7cd00c8b1214"
+}
